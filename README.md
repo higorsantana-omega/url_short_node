@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./git/short.png" width="150">
+  <img src="./git/short.png" width="200">
 </p>
 
 # URL SHORTENER
@@ -18,7 +18,7 @@
 * As URL's encurtadas ficam salvas no banco de dados
 
 # :construction_worker: Installation
-**Você precisa instalar [Node.js] (https://nodejs.org/en/download/) e [Yarn] (https://yarnpkg.com/) primeiro e, em seguida, para clonar o projeto via HTTPS , execute este comando:**
+**Você precisa instalar [Node.js](https://nodejs.org/en/download/) e [Yarn](https://yarnpkg.com/) primeiro e, em seguida, para clonar o projeto via HTTPS , execute este comando:**
 
 ```git clone https://github.com/higorsantana-omega/url_short_node.git```
 
