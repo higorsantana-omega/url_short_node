@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Higor Santana",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules --respawn src/index.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
