@@ -1,11 +1,12 @@
+import { URLController } from './controllers/URLController'
 import express, { Request, Response } from 'express'
 
 const app = express()
 
 app.use(express.json())
 
-app.get('/test', (req: Request, res: Response) => {
-  res.json({ success: true })
-})
+const urlController = new URLController()
+
+app.post('/shorten', urlController.shorten)
 
 app.listen(7000, () => console.log("Server is running!"))
