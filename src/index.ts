@@ -1,9 +1,12 @@
+import express from 'express'
+import { MongoConnection } from './database/MongoConnection'
 import { URLController } from './controllers/URLController'
-import express, { Request, Response } from 'express'
 
 const app = express()
+const database = new MongoConnection()
 
 app.use(express.json())
+database.connect()
 
 const urlController = new URLController()
 
