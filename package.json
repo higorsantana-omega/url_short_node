@@ -9,6 +9,7 @@
     "dev": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules --respawn src/index.ts"
   },
   "devDependencies": {
+    "@hasezoey/typegoose": "^5.9.2",
     "@types/express": "^4.17.13",
     "@types/mongoose": "^5.11.97",
     "@types/nanoid": "^3.0.0",
